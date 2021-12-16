@@ -1,0 +1,36 @@
+.nav-bar{
+    padding: .5rem 2rem;
+    background: rgb(4, 94, 100);
+    color: #fff;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+}
+
+.home{
+    height: 100vh;
+    margin-top: 0rem;
+    color: rgb(77, 74, 74);
+    padding: 6rem 2rem;
+}
+
+.task{
+    height: 100vh;
+    margin-top: 0rem;
+    color: #fff;
+    padding: 6rem 2rem;
+}
+
+.about{
+    height: 100vh;
+    margin-top: 0rem;
+    color: rgb(66, 65, 65);
+    padding: 6rem 2rem;
+}
+
+.service{
+    height: 100vh;
+    margin-top: 0rem;
+    color: rgb(73, 72, 72);
+    padding: 6rem 2rem;
+}

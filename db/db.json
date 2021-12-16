@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "UX Designer webinar",
+      "day": "20 Dec 2021 a 2:30 pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Back-End webinar",
+      "day": "21 Dec 2021 a 15:30 pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Front-End Challange",
+      "day": "22 Dec 2021 a 16:30 pm",
+      "reminder": false
+    },
+    {
+      "text": "Task 4",
+      "day": "25 Dec 2021 a 15:45",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "Task 5",
+      "day": "26 Dec 2021",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "Task 6",
+      "day": "27 Dec 2021 a 16:30pm",
+      "reminder": false,
+      "id": 6
+    }
+  ]
+}

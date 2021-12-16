@@ -1,0 +1,39 @@
+.navs{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    h1{
+        font-size: 1.5rem;
+        margin-bottom: 0 !important;
+    }
+
+    .nav-items{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 0 !important;
+
+        .list-items{
+            margin: 0 1rem;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            position: relative;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+                transition: all .3s ease;
+
+                &:hover{
+                    color: rgb(218, 10, 72);
+                }
+            }
+        }
+    }
+}

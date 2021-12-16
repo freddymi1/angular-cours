@@ -1,0 +1,12 @@
+<header>
+    <nav class="navs">
+        <h1>{{title}}</h1>
+        <ul class="nav-items">
+            <li class="list-items"><a href="#task">Tasks</a></li>
+            <li class="list-items"><a href="#home">Home</a></li>
+            <li class="list-items"><a href="#about">About</a></li>
+            <li class="list-items"><a href="#service">Service</a></li>
+        </ul>
+        <app-button color="{{showAddTask ? 'rgb(104, 6, 134)' : 'rgb(206, 5, 65)'}}" text="{{showAddTask ? 'Close' : 'Add task'}}" (btnClick)="toggleAddTask()"></app-button>
+    </nav>
+</header>
